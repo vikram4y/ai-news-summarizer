@@ -1,0 +1,28 @@
+# Ignore virtual environment
+venv/
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment variable files (API keys, secrets)
+.env
+*.env
+
+# Ignore Streamlit secrets (avoid exposing API keys)
+.streamlit/secrets.toml
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter Notebook checkpoints (if using notebooks)
+.ipynb_checkpoints/
+
+# Ignore logs and temporary files
+*.log
+*.sqlite3
+*.db
